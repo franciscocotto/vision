@@ -19,7 +19,8 @@ public class LogoutServlet extends HttpServlet
 private static final long serialVersionUID = 1L;
 protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
 {
-    if(request.getSession().getAttribute("estado").toString().equals("activo")){
+    HttpSession sesion = request.getSession();
+    if(sesion.getAttribute("user")!=null){
         request.getSession().invalidate();
     }
     response.sendRedirect("login.jsp");

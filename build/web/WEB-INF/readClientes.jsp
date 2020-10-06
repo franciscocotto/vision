@@ -1,6 +1,5 @@
 <%@page import="java.sql.ResultSet"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <!-- Modal Desvincular -->
 <div class="modal fade resette" id="editarusuario" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
