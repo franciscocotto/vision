@@ -19,7 +19,8 @@ public class ConexionJDBC {
     //usuario
     String user  = "postgres";
     //variable de password cambiar si en el postgres se tiene otro password sino no conectara
-    String pass = "admin";
+    //String pass = "admin";
+    String pass = "22209589";
     
     //driver
     String  driverDb = "org.postgresql.Driver";

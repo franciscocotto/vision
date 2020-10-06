@@ -10,6 +10,15 @@
             <file>file:/C:/Users/Moi/Documents/NetBeansProjects/Proyecto%20en%20Netbeans%208.1/gimnasioSIC/web/servicios.jsp</file>
             <file>file:/C:/Users/Moi/Documents/NetBeansProjects/Proyecto%20en%20Netbeans%208.1/gimnasioSIC/web/WEB-INF/tableServicios.jsp</file>
         </group>
-        <group/>
+        <group>
+            <file>file:/D:/Proyectos%20Java/vision/web/membresias.jsp</file>
+            <file>file:/D:/Proyectos%20Java/vision/src/java/servlets/LogoutServlet.java</file>
+            <file>file:/D:/Proyectos%20Java/vision/web/login.jsp</file>
+            <file>file:/D:/Proyectos%20Java/vision/src/java/servlets/LoginServlet.java</file>
+            <file>file:/D:/Proyectos%20Java/vision/src/java/login/dao/LoginDao.java</file>
+            <file>file:/D:/Proyectos%20Java/vision/web/empleados.jsp</file>
+            <file>file:/D:/Proyectos%20Java/vision/web/admin.jsp</file>
+            <file>file:/D:/Proyectos%20Java/vision/web/user.jsp</file>
+        </group>
     </open-files>
 </project-private>
