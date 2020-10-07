@@ -17,11 +17,14 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>&nbsp;Bienvenido(a):
                          <% 
+                        String url_inicio = "";
                         Integer valor = (Integer)getServletContext().getAttribute("admin");
                          if( valor == 1){
+                             url_inicio = "admin.jsp";
                         %> 
                         Administrador
                        <%} else{
+                            url_inicio = "user.jsp";
                         %> 
                         Empleado
                        <%} %>
@@ -36,7 +39,7 @@
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav side-nav">
                         <li class="active">
-                            <a href="LogoutServlet">
+                            <a href="<% out.print(url_inicio); %>">
                                 <i class="fa fa-fw fa-pie-chart"></i> Clientes                    
                                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-triangle  extended">                    
                                 <polygon style="border-color: white;" points="22,20 -5,40 0,0"></polygon>
